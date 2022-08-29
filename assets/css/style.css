@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ======== TRANSITION ======== */
+div {
+  height: 50px;
+  width: 50px;
+  background: red;
+  transition-property: width;
+  transition-duration: 1s;
+}
+div:hover {
+  width: 100vw;
+}
